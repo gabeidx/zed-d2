@@ -1,6 +1,6 @@
 id = "d2"
 name = "D2"
-version = "0.0.1"
+version = "0.1.0"
 schema_version = 1
 authors = ["Gabriel Silva <gabe@gabe.id>"]
 description = "D2 support."

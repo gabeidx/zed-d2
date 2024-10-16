@@ -2,7 +2,7 @@
 
 An extension that adds D2 support for Zed.
 
-D2 is a diagram scripting language that turns text to diagrams. Larn more about D2 at <https://d2lang.com>
+Learn more about D2 at <https://d2lang.com>
 
 ## Acknowledgments
 

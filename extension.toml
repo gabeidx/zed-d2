@@ -1,0 +1,11 @@
+id = "d2"
+name = "D2"
+version = "0.0.1"
+schema_version = 1
+authors = ["Gabriel Silva <gabe@gabe.id>"]
+description = "D2 support."
+repository = "https://github.com/gabeidx/zed-d2"
+
+[grammars.d2]
+repository = "https://git.pleshevski.ru/pleshevskiy/tree-sitter-d2"
+commit = "1e6d8ca3d85c0031ff010759bb60804dd47b95f2"

@@ -59,3 +59,22 @@
 ;-------------------------------------------------------------------------------
 
 (ERROR) @error
+
+;-------------------------------------------------------------------------------
+; Language-specific aliases for nvim-treesitter
+;-------------------------------------------------------------------------------
+
+(text_block . (raw_text) @markdown)
+
+(text_block
+  (language) @_language
+  (raw_text) @markdown
+  (#eq? @_language "md"))
+
+(text_block
+  (language) @_language
+  (raw_text) @javascript
+  (#eq? @_language "js"))
+
+(line_comment) @comment
+(block_comment) @comment
